@@ -1,5 +1,5 @@
 <template>
-    <HelloWorld msg="Welcome to Your Vue 3 + TypeScript + TailwindCSS BoilerPlate" />
+    <HelloWorld msg="Boo" />
 </template>
 
 <script lang="ts">
