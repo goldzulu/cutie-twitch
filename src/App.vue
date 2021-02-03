@@ -1,15 +1,15 @@
 <template>
-    <HelloWorld msg="Boo" />
+  <DisplayText />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import DisplayText from "./components/DisplayText.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld
+    DisplayText
   }
 });
 </script>
