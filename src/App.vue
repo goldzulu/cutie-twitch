@@ -1,14 +1,8 @@
 <template>
-  <div>
-    <div class="flex">
-      <img class="block mx-auto" alt="Vue logo" src="./assets/logo.png" />
-    </div>
     <HelloWorld msg="Welcome to Your Vue 3 + TypeScript + TailwindCSS BoilerPlate" />
-  </div>
 </template>
 
 <script lang="ts">
-import "tailwindcss/tailwind.css";
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 
